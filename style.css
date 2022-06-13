@@ -116,7 +116,7 @@ body {
 .icons a {
     margin: 10px;
 }
- 
+
 
 
 .right-navbar {
@@ -132,10 +132,11 @@ body {
 }
 
 .right-navbar a {
-    text-decoration:none;
+    text-decoration: none;
     color: black;
 }
-.bars{
+
+.bars {
     display: none;
     padding-right: 20px;
 }
@@ -173,7 +174,7 @@ body {
     font-size: 15px;
     border: 2px solid;
 }
-    
+
 
 .left-image h2 {
     width: 280px;
@@ -187,7 +188,7 @@ body {
 
 
 
-.barriers img{
+.barriers img {
     content: "";
     display: block;
     width: 70%;
@@ -257,11 +258,13 @@ body {
     width: 240px;
 
 }
-.find-your{
+
+.find-your {
     display: none;
     text-align: center;
 }
-.find-your h3{
+
+.find-your h3 {
     line-height: 14px;
     font-weight: 900;
     font-size: 31px;
@@ -913,7 +916,7 @@ body {
     width: 98%;
     height: 100%;
     background-color: #E280FF;
-    border: 2px solid black;
+
 }
 
 /* .image8-in {
@@ -1152,7 +1155,6 @@ body {
 .sample img {
     width: 100%;
     height: 200px
-
 }
 
 
@@ -1338,322 +1340,388 @@ body {
 
 
 
-@media only screen and (max-width:600px){
-body{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.container{
-    width: 88%;
-}
-.navbar-left li{
-    display: none;
-}
-.navbar-left img{
-    width: 40px
-}
+@media only screen and (max-width:600px) {
+    body {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .navbar-left li {
+        display: none;
+    }
+
+    .navbar-left img {
+        width: 40px
+    }
 
 
 
-.icons{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    width: 250px;
-    
-}
-.icons a{
-    font-size: 30px;
-    margin: 10px;
-    padding-right: 10px;
-}
+    .icons {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 250px;
 
-   .right-navbar{
-       display: none;
-   } 
-.bars{
-    display: flex;
-}
-.container2{
-    flex-direction: column;
-    width: 95%;
-    padding-top: 0px;
-}
+    }
 
-.left-image{
-    padding-left: 10px;
-    width: 100%;
-    
-}
-.left-image h2{
-padding-bottom: 0;
-}
-.left-image p{
-    width: 315px;
-    font-size: 18px;
-    font-weight: 900;
-    line-height: 25px;
-    padding-bottom: 20px;
-    
+    .icons a {
+        font-size: 30px;
+        margin: 10px;
+        padding-right: 10px;
+    }
 
-}
-.right-image{
-  width: 89%;
-    justify-content: flex-end;
+    .right-navbar {
+        display: none;
+    }
 
-}
-.right-image img{
-    width: 214px
-}
-.container3{
-    width: 94%;
-}
-.image-drown{
-    width: 100%;
-}
-.image-drown img{
-    width: 200px;
-    height: 300px;
-    margin-top: -87px;
-}
-.image-logo{
-    width: 100%;
-}
-.image-logo img{
-    width: 100px;
-    padding-top: 20px;
-}
-.no-matter{
-    width: 94%;
-    border-bottom: none;
-    border-top: none;
-}
-.find-your{
-    display:block;
-}
-.find-you h3{
-    text-align: center;
-}
-.find-your h4{
-    display: block;
-    text-align: center;
-    width: 335px;
-    
-}
-.no-matter p{
-    display: none;
-}
-.main-container{
-    flex-direction: column;
-}
-.first-image{
-   width: 100%;
-    border-right: none;
-    border-top: 2px solid black;
-}
-.second-image{
-    width: 100%;
-}
-.container5{
-    flex-direction: column;
-}
-.just-after{
-    padding-top: 20px;
-    text-align: center;
-    width: 377px;
-    
-}
-.just-after p{
-    padding-left: 0px;
-}
-.container6{
-    flex-direction: column;
-}
-.left-content{
-    width: 100%;
-}
-.left-content img{
-    width: 50%;
-}
-.right-content{
-    padding-top: 50px;
-    width: 100%;
-}
+    .bars {
+        display: flex;
+    }
 
-.making-records{
-    width: 100%;
-}
-.mastering{
-    width: 100%;
-}
-.Design{
-    width: 100%;
-    
-}
-.artwork{
-    width: 100%;
-}
-.pressing{
-    width: 100%;
-}
-.storage{
-    width: 100%;
-    font-size: 30px;
-}
-.free-storage{
-    width: 100%;
-}
-.sell{
-    width: 100%;
-}
-.digital{
-    width: 100%;
-}
-.retail{
-    width: 100%;
-}
-.support{
-    width: 100%;
-}
-.customer{
-    width: 100%;
-}
-.artist-support{
-    width: 100%;
-}
-.container7{
-    flex-direction: column;
-    padding-top: 100px;
-}
-.background-image1{
-    width: 100%;
-}
-.background-image1 img{
-    width: 100%;
-}
-.background-image2{
-    width: 100%;
-}
-.background-image2 img{
-    width: 100%;
-}
-.costomer-column{
-    width: 100%;
-}
-.customer-column h2{
-    width: 100%;
+    .container2 {
+        flex-direction: column;
+        width: 95%;
+        padding-top: 0px;
+    }
 
-}
-.community{
-    width: 100%;
-}
-.community p{
-    width: 81%;
-    font-weight: 300;
-}
-.all-image{
-    width: 93%;
-}
-.all-image-first{
-    flex-wrap: wrap;
-    grid-template-columns: 50% 50%;
-}
-.all-image-second{
-    width: 100%;
-}
-.image8{
-    width: 98%;
-}
-.follow{
-    width: 100%;
-    padding-top: 0px;
-}
-.follow p{
-    padding-top: 0px
-}
-.child{
-    display: none;
-}
-.second-container{
-    flex-direction: column-reverse;
-}
-.left-container{
-    width: 94%;
-    margin-left: 10px;
+    .left-image {
+        padding-left: 10px;
+        width: 100%;
 
-}
+    }
 
-.right-container{
-    width: 94%;
-    margin-left: 10px;
-}
-.right-container img{
-    width: 99%;
-}
-.container-down{
-    display: flex;
-    flex-flow: wrap;
-    width: 94%;
-}
-.container-black{
-    width: 94%;
-}
+    .left-image h2 {
+        padding-bottom: 0;
+    }
 
-.black-content{
-    width: 100%;
-}
-.black-content p{
-    width: 90%;
-}
-.black-content img{
-    padding-top: 12px;
-    padding-bottom: 0px;
-}
-.sample img {
-    width: 90%;
-    margin-left: 10px;
-}
-.help{
-    line-height: 13px;
-}
-.for-artists{
-    line-height: 13px;
-}
-.for-fans{
-    line-height: 13px;
-}
-.our-company{
-    line-height: 13px;
-}
-.footer{
-    width: 95%;
-}
-.footer-image{
-    display: none;
-}
-.social-image{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 12px;
-    width: 100%;
-    padding-left: 0px;
-}
-
-.image-logo img{
-
-    width: 100px;
-    
-}
-.footer-contents{
-    width: 90%;
-}
-
-}
+    .left-image p {
+        width: 315px;
+        font-size: 18px;
+        font-weight: 900;
+        line-height: 25px;
+        padding-bottom: 20px;
 
 
+    }
 
+    .right-image {
+        width: 100%;
+        justify-content: flex-end;
 
+    }
 
+    .right-image img {
+        width: 214px
+    }
 
+    .container3 {
+        width: 94%;
+    }
 
+    .image-drown {
+        width: 100%;
+    }
 
+    .image-drown img {
+        width: 200px;
+        height: 300px;
+        margin-top: -87px;
+    }
+
+    .image-logo {
+        width: 100%;
+    }
+
+    .image-logo img {
+        width: 100px;
+        padding-top: 20px;
+    }
+
+    .no-matter {
+        width: 94%;
+        border-bottom: none;
+        border-top: none;
+    }
+
+    .find-your {
+        display: block;
+    }
+
+    .find-you h3 {
+        text-align: center;
+    }
+
+    .find-your h4 {
+        display: block;
+        text-align: center;
+        width: 335px;
+
+    }
+
+    .no-matter p {
+        display: none;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .first-image {
+        width: 100%;
+        border-right: none;
+
+    }
+
+    .second-image {
+        width: 100%;
+    }
+
+    .container5 {
+        flex-direction: column;
+    }
+
+    .just-after {
+        padding-top: 20px;
+        text-align: center;
+        width: 377px;
+
+    }
+
+    .just-after p {
+        padding-left: 0px;
+    }
+
+    .container6 {
+        flex-direction: column;
+    }
+
+    .left-content {
+        width: 100%;
+    }
+
+    .left-content img {
+        width: 50%;
+    }
+
+    .right-content {
+        padding-top: 50px;
+        width: 100%;
+    }
+
+    .making-records {
+        width: 100%;
+    }
+
+    .mastering {
+        width: 100%;
+    }
+
+    .Design {
+        width: 100%;
+
+    }
+
+    .artwork {
+        width: 100%;
+    }
+
+    .pressing {
+        width: 100%;
+    }
+
+    .storage {
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .free-storage {
+        width: 100%;
+    }
+
+    .sell {
+        width: 100%;
+    }
+
+    .digital {
+        width: 100%;
+    }
+
+    .retail {
+        width: 100%;
+    }
+
+    .support {
+        width: 100%;
+    }
+
+    .customer {
+        width: 100%;
+    }
+
+    .artist-support {
+        width: 100%;
+    }
+
+    .container7 {
+        flex-direction: column;
+        padding-top: 100px;
+    }
+
+    .background-image1 {
+        width: 100%;
+    }
+
+    .background-image1 img {
+        width: 100%;
+    }
+
+    .background-image2 {
+        width: 100%;
+    }
+
+    .background-image2 img {
+        width: 100%;
+    }
+
+    .costomer-column {
+        width: 100%;
+    }
+
+    .customer-column h2 {
+        width: 100%;
+
+    }
+
+    .community {
+        width: 100%;
+    }
+
+    .community p {
+        width: 81%;
+        font-weight: 300;
+    }
+
+    .all-image {
+        width: 93%;
+    }
+
+    .all-image-first {
+        flex-wrap: wrap;
+        grid-template-columns: 50% 50%;
+    }
+
+    .all-image-second {
+        width: 100%;
+    }
+
+    .image8 {
+        width: 98%;
+    }
+
+    .follow {
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .follow p {
+        padding-top: 0px
+    }
+
+    .child {
+        display: none;
+    }
+
+    .second-container {
+        flex-direction: column-reverse;
+    }
+
+    .left-container {
+        width: 94%;
+        margin-left: 10px;
+
+    }
+
+    .right-container {
+        width: 94%;
+        margin-left: 10px;
+    }
+
+    .right-container img {
+        width: 99%;
+    }
+
+    .container-down {
+        display: flex;
+        flex-flow: wrap;
+        width: 94%;
+    }
+
+    .container-black {
+        width: 94%;
+    }
+
+    .black-content {
+        width: 100%;
+    }
+
+    .black-content p {
+        width: 90%;
+    }
+
+    .black-content img {
+        padding-top: 12px;
+        padding-bottom: 0px;
+    }
+
+    .sample img {
+        width: 90%;
+        margin-left: 10px;
+    }
+
+    .help {
+        line-height: 13px;
+    }
+
+    .for-artists {
+        line-height: 13px;
+    }
+
+    .for-fans {
+        line-height: 13px;
+    }
+
+    .our-company {
+        line-height: 13px;
+    }
+
+    .footer {
+        width: 95%;
+    }
+
+    .footer-image {
+        display: none;
+    }
+
+    .social-image {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 12px;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .image-logo img {
+
+        width: 100px;
+
+    }
+
+    .footer-contents {
+        width: 90%;
+    }
+
+}
