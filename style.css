@@ -8,15 +8,18 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
-    width: 1400px;
+    width: 1300px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
     background-color: transparent;
+
 }
 
 .navbar-left {
     display: flex;
+    width: 650px;
+
 }
 
 .navbar-left img {
@@ -27,6 +30,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+
 
 }
 
@@ -121,8 +126,10 @@ body {
 
 .right-navbar {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
+    width: 650px;
+
 }
 
 .right-navbar li {
@@ -154,7 +161,7 @@ body {
 
 .container2 {
     display: flex;
-    max-width: 1200px;
+    max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 130px;
@@ -162,7 +169,7 @@ body {
 }
 
 .left-image {
-    width: 600px;
+    width: 650px;
 
 
 }
@@ -214,12 +221,12 @@ body {
 
 .right-image {
     display: flex;
-    width: 600px;
+    width: 650px;
 
 }
 
 .right-image img {
-    max-width: 690px;
+    width: 622px;
     transform: rotate(7deg);
     border: 2px solid;
 }
@@ -1341,13 +1348,17 @@ body {
 
 
 @media only screen and (max-width:600px) {
-    body {
-        padding-left: 10px;
-        padding-right: 10px;
-    }
+body{
+    padding-left: 10px;
+}
 
     .container {
-        width: 88%;
+        width: 100%;
+
+    }
+
+    .navbar-left {
+        width: 100%;
     }
 
     .navbar-left li {
@@ -1355,7 +1366,8 @@ body {
     }
 
     .navbar-left img {
-        width: 40px
+        width: 40px;
+        margin-right: 83px;
     }
 
 
@@ -1364,7 +1376,8 @@ body {
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        width: 250px;
+        width: 186px;
+    
 
     }
 
@@ -1384,14 +1397,14 @@ body {
 
     .container2 {
         flex-direction: column;
-        width: 95%;
+        width: 100%;
         padding-top: 0px;
     }
 
     .left-image {
         padding-left: 10px;
         width: 100%;
-
+        
     }
 
     .left-image h2 {
@@ -1399,14 +1412,17 @@ body {
     }
 
     .left-image p {
-        width: 315px;
+        width: 98%;
         font-size: 18px;
         font-weight: 900;
         line-height: 25px;
         padding-bottom: 20px;
 
-
     }
+
+
+
+
 
     .right-image {
         width: 100%;
@@ -1415,12 +1431,17 @@ body {
     }
 
     .right-image img {
-        width: 214px
+
+        width: 170px;
+        transform: rotate(6deg);
+        margin-right: 10px;
     }
 
     .container3 {
-        width: 94%;
+        width: 100%;
+
     }
+
 
     .image-drown {
         width: 100%;
@@ -1428,24 +1449,29 @@ body {
 
     .image-drown img {
         width: 200px;
-        height: 300px;
         margin-top: -87px;
+        transform: rotate(-3deg);
+        margin-left: -18px;
     }
 
     .image-logo {
         width: 100%;
+        padding-top: 32px;
     }
 
+
     .image-logo img {
-        width: 100px;
-        padding-top: 20px;
+        width: 70px;
+        margin-left: 28px;
     }
 
     .no-matter {
-        width: 94%;
+        width: 100%;
         border-bottom: none;
         border-top: none;
+    
     }
+
 
     .find-your {
         display: block;
@@ -1456,9 +1482,9 @@ body {
     }
 
     .find-your h4 {
-        display: block;
         text-align: center;
-        width: 335px;
+        width: 99%;
+        border: 2px solid;
 
     }
 
@@ -1468,20 +1494,24 @@ body {
 
     .main-container {
         flex-direction: column;
+        width: 100%;
+    
     }
 
     .first-image {
         width: 100%;
         border-right: none;
-
     }
 
     .second-image {
         width: 100%;
+        border-right: none;
+    
     }
 
     .container5 {
         flex-direction: column;
+        width: 100%;
     }
 
     .just-after {
@@ -1497,6 +1527,8 @@ body {
 
     .container6 {
         flex-direction: column;
+        width: 100%;
+    
     }
 
     .left-content {
@@ -1584,7 +1616,7 @@ body {
     }
 
     .background-image2 img {
-        width: 100%;
+        width: 100%
     }
 
     .costomer-column {
@@ -1606,7 +1638,7 @@ body {
     }
 
     .all-image {
-        width: 93%;
+        width: 100%;
     }
 
     .all-image-first {
@@ -1619,7 +1651,7 @@ body {
     }
 
     .image8 {
-        width: 98%;
+        width: 100%;
     }
 
     .follow {
@@ -1640,28 +1672,36 @@ body {
     }
 
     .left-container {
-        width: 94%;
-        margin-left: 10px;
+        width: 100%;
+
 
     }
 
     .right-container {
-        width: 94%;
-        margin-left: 10px;
+        width: 100%;
     }
 
     .right-container img {
         width: 99%;
     }
 
+    .container-black {
+        width: 100%;
+    }
+
     .container-down {
         display: flex;
         flex-flow: wrap;
-        width: 94%;
+        width: 100%;
     }
 
-    .container-black {
-        width: 94%;
+    .FOR-ARTISTS {
+        font-size: 18px;
+        font-weight: 900;
+    }
+
+    .FOR-ARTISTS li {
+        font-size: 8px;
     }
 
     .black-content {
@@ -1670,6 +1710,15 @@ body {
 
     .black-content p {
         width: 90%;
+    }
+
+    .the-response p{
+        width: 85%;
+        font-size: 25px;
+        line-height: 35px;
+        padding-left: 20px;
+        box-sizing: border-box;
+        padding-right: 80px;
     }
 
     .black-content img {
@@ -1682,24 +1731,34 @@ body {
         margin-left: 10px;
     }
 
-    .help {
-        line-height: 13px;
-    }
-
-    .for-artists {
-        line-height: 13px;
-    }
 
     .for-fans {
+
         line-height: 13px;
+    }
+
+    .for-fans li {
+        font-size: 15px;
     }
 
     .our-company {
         line-height: 13px;
     }
 
+    .our-company li {
+        font-size: 15px;
+    }
+
+    .help {
+        line-height: 13px;
+    }
+
+    .help li {
+        font-size: 15px;
+    }
+
     .footer {
-        width: 95%;
+        width: 100%;
     }
 
     .footer-image {
@@ -1721,7 +1780,11 @@ body {
     }
 
     .footer-contents {
-        width: 90%;
+        width: 100%;
     }
 
+    .footer-contents li {
+        text-align: center;
+        font-size: 15px;
+    }
 }
