@@ -1418,7 +1418,7 @@ body {
 
 .FOR-ARTISTS li a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 900;
     color: white;
 
@@ -1943,7 +1943,14 @@ body {
     }
 
     .just-after p {
+        width: 83%;
         padding-left: 0px;
+        font-size: 20px;
+        font-family: serif;
+    }
+
+    .star p {
+        padding-top: 0px;
     }
 
     .container6 {
@@ -2182,7 +2189,7 @@ body {
 
     .FOR-ARTISTS h3 {
         color: white;
-        font-size: 15px;
+        font-size: 20px;
 
     }
 
@@ -2207,8 +2214,17 @@ body {
         width: 100%;
     }
 
+    .black-content h2 {
+        text-align: center;
+        width: 65%;
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+
     .black-content p {
-        width: 90%;
+        width: 86%;
+        font-size: 15px;
+        line-height: 25px;
     }
 
     .the-response {
@@ -2234,8 +2250,9 @@ body {
     }
 
     .black-content img {
-        padding-top: 12px;
         padding-bottom: 0px;
+        width: 45%;
+        margin-left: 3rem;
     }
 
     .sample {
@@ -2247,6 +2264,9 @@ body {
         margin-left: 10px;
     }
 
+    .button a {
+        padding: 15px 83px;
+    }
 
     .for-fans {
         line-height: 13px;
