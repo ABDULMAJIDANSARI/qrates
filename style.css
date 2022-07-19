@@ -1598,7 +1598,7 @@ body {
 
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width: 600px) and (min-width: 320px){
 
     .container {
         width: 100%;
@@ -1733,7 +1733,7 @@ body {
     }
 
     .image-down img {
-        width: 265px;
+        width: 252px;
         height: 340px;
         margin-top: -49px;
         transform: rotate(354deg);
@@ -1754,7 +1754,7 @@ body {
     }
 
     .choose-from {
-        width: 100%;
+        width: 99%;
         padding-top: 50px;
         border: none;
     }
@@ -1938,8 +1938,7 @@ body {
     .just-after {
         padding-top: 20px;
         text-align: center;
-        width: 377px;
-
+        width: 354px;
     }
 
     .just-after p {
@@ -1971,7 +1970,7 @@ body {
     }
 
     .left-content h1 {
-        width: 369px;
+        width: 356px;
         color: transparent;
         -webkit-text-stroke-width: 2px;
         -webkit-text-stroke-color: #000000;
@@ -1980,7 +1979,7 @@ body {
         letter-spacing: 1.42px;
         line-height: 40px;
         text-align: center;
-        padding-bottom: 30px;
+        padding-bottom: 30px
 
     }
 
