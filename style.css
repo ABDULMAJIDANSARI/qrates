@@ -128,7 +128,7 @@ body {
 
 }
 
-.icons a {}
+
 
 .outline img {
     width: 25px;
@@ -1029,6 +1029,7 @@ body {
     color: #000000;
     font-size: 14px;
     font-weight: bold;
+    background-color: white;
 }
 
 .background-image2 img {
@@ -1305,7 +1306,6 @@ body {
     font-weight: 600;
 }
 
-.second-response {}
 
 .tag {
 
@@ -1634,7 +1634,7 @@ body {
     margin: 0px 10px;
 }
 
-.tdms-2{
+.tdms-2 {
     display: none;
 }
 
@@ -1921,15 +1921,19 @@ body {
 
     .find-your-fit h2 {
         display: block;
-        font-size: 26px;
+        font-size: 36px;
         font-weight: bold;
         font-family: sans-serif;
     }
 
     .find-your-fit h4 {
         display: block;
-        width: 57%;
+        width: 69%;
         text-align: center;
+        font-size: 15px;
+        font-family: sans-serif;
+        margin: 0;
+        line-height: 23px;
     }
 
     .find-your-fit p {
@@ -1953,11 +1957,15 @@ body {
         align-items: center;
         width: 41%;
         height: 30px;
+        order: 2;
     }
 
     .first-image h2 {
-        font-size: 40px;
+        font-size: 28px;
         font-weight: bold;
+        order: 3;
+        margin: 0;
+        padding-top: 5px;
     }
 
     .first-image p {
@@ -1970,17 +1978,20 @@ body {
 
     .first-image img {
         width: 65%;
+        order: 1;
+        padding-bottom: 10px;
     }
 
     .first-image a {
-        margin-top: 80px;
+        margin-top: 23px;
         text-decoration: none;
         background-color: rgb(0, 0, 0);
         color: white;
-        margin-bottom: 80px;
-        padding: 11px 120px;
+        margin-bottom: 69px;
+        padding: 15px 120px;
         border-radius: 20px;
         font-size: 11px;
+        order: 5;
     }
 
     .second-image {
@@ -1989,18 +2000,33 @@ body {
 
     }
 
+    .second-image h3 {
+        order: 2;
+    }
+
+    .second-image h2 {
+        order: 3;
+        margin: 0;
+        font-size: 35px;
+        font-family: ui-sans-serif;
+    }
+
     .second-image a {
-        margin-top: 80px;
+        margin-top: 23px;
         text-decoration: none;
         background-color: rgb(0, 0, 0);
         color: white;
         margin-bottom: 80px;
-        padding: 10px 100px;
+        padding: 15px 100px;
         border-radius: 20px;
+        order: 5;
     }
 
     .second-image p {
-        width: 100%;
+        width: 92%;
+        order: 4;
+        font-weight: 500;
+        color: black;
     }
 
     .container5 {
@@ -2012,7 +2038,7 @@ body {
     .just-after {
         padding-top: 20px;
         text-align: center;
-        width: 354px;
+        width: 100%;
     }
 
     .just-after p {
@@ -2020,6 +2046,10 @@ body {
         padding-left: 0px;
         font-size: 20px;
         font-family: serif;
+    }
+
+    .star {
+        width: 100%;
     }
 
     .star p {
@@ -2041,28 +2071,33 @@ body {
         width: 50%;
         order: 3;
         margin-top: 2rem;
+        border: 2px solid black;
     }
 
     .left-content h1 {
-        width: 356px;
+        width: 90%;
         color: transparent;
-        -webkit-text-stroke-width: 2px;
-        -webkit-text-stroke-color: #000000;
-        font-size: 40px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: #8d7b7b;
+        font-size: 30px;
         font-weight: 900;
-        letter-spacing: 1.42px;
-        line-height: 40px;
+        letter-spacing: 2.42px;
+        line-height: 36px;
         text-align: center;
-        padding-bottom: 30px
+        padding-bottom: 15px;
+        font-family: system-ui;
     }
 
     .left-content h3 {
-        width: 100%;
-        font-size: 17px;
-        font-weight: normal;
-        font-family: fangsong;
-        margin-top: 0;
+        width: 90%;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: ui-monospace;
         order: 1;
+        margin: 0;
+        padding-bottom: 28px;
+        line-height: 25px;
+        letter-spacing: 0px;
     }
 
     .left-content h4 {
@@ -2071,71 +2106,98 @@ body {
     }
 
     .learn-more {
-        padding: 10px 100px;
+        padding: 10px 130px;
         border-radius: 22px;
         background-color: white;
         cursor: pointer;
-        font-weight: 900;
+        font-weight: 700;
         order: 2;
+        font-size: 11px;
     }
 
     .right-content {
         padding-top: 50px;
-        width: 100%;
+        width: 93%;
+        padding-left: 14px;
     }
 
     .making-records {
         width: 100%;
+        height: 83px;
+        font-size: 18px;
     }
 
     .mastering {
         width: 100%;
+        height: 83px;
+        font-size: 16px;
     }
 
     .Design {
         width: 100%;
+        height: 83px;
+        font-size: 16px;
 
     }
 
     .artwork {
         width: 100%;
+        height: 83px;
+        font-size: 16px;
     }
 
     .pressing {
         width: 100%;
+        height: 83px;
+        font-size: 16px;
     }
 
     .storage {
         width: 100%;
-        font-size: 30px;
+        height: 83px;
+        font-size: 18px;
     }
 
     .free-storage {
         width: 100%;
+        height: 83px;
+        font-size: 16px;
     }
 
     .sell {
         width: 100%;
+        height: 83px;
+        font-size: 16px;
     }
 
     .digital {
         width: 100%;
+        height: 83px;
+        font-size: 16px;
     }
 
     .retail {
         width: 100%;
+        height: 83px;
+        font-size: 16px;
     }
 
     .support {
         width: 100%;
+        height: 83px;
+        font-size: 18px;
     }
 
     .customer {
         width: 100%;
+        height: 83px;
+        font-size: 16px;
     }
 
     .artist-support {
         width: 100%;
+        height: 83px;
+        font-size: 16px;
     }
 
     .container7 {
@@ -2148,17 +2210,40 @@ body {
     }
 
     .background-image1 img {
-        width: 85%;
+        width: 92%;
         height: 100%;
-        margin-top: 0;
+
     }
+
+    .retail-column {
+        padding: 70px 8% 76px
+    }
+
+    .retail-column h2 {
+        width: 100%;
+        font-size: 32px;
+        line-height: 39px;
+        margin: 0;
+        padding-top: 10px;
+    }
+
+    .retail-column {
+        font-size: 18px;
+    }
+
+
+
 
     .background-image2 {
         width: 100%;
     }
 
     .background-image2 img {
-        width: 99%
+        width: 90%;
+        height: 100%;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
     }
 
     .costomer-column {
@@ -2166,23 +2251,59 @@ body {
     }
 
     .customer-column h2 {
-        width: 100%;
+        width: 91%;
+        margin: 0;
+        font-size: 32px;
+        /* letter-spacing: -1px; */
+        line-height: 37px;
+        padding-top: 5px;
 
+    }
+
+    .costomer-column h3 {
+        width: 54%;
+        height: 34px;
+        font-size: 14px;
+    }
+
+    .customer-column {
+        padding: 0px 8% 74px;
+    }
+
+    .customer-column p {
+        font-size: 17px;
+        font-weight: 500;
+        font-family: system-ui;
     }
 
     .community {
         width: 100%;
+        padding-top: 30px;
     }
 
     .community p {
-        width: 81%;
-        font-weight: 300;
+        width: 90%;
+        font-size: 16px;
+        font-weight: 600;
+
+    }
+
+    .community-contents h1 {
+        width: 98%;
+        font-size: 36px;
+        line-height: 42px;
+        letter-spacing: -1px;
+    }
+
+    .browse-artists {
+        padding: 10px 104px;
     }
 
     #sticker-image img {
-        width: 23%;
+
+        width: 26%;
         right: 9%;
-        bottom: -6%;
+        bottom: -17%;
     }
 
     .all-image {
@@ -2217,28 +2338,27 @@ body {
 
     .second-container {
         flex-direction: column-reverse;
-        width: 99%;
+        width: 100%;
     }
 
     .left-container {
-        width: 89%;
+        width: 99%;
+        margin-left: 0;
     }
 
     .left-container h4 {
-        margin-left: 2rem;
+        margin-left: 1rem;
+        margin-top: 30px;
     }
 
     .right-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 70%;
+        width: 91%;
     }
 
     .right-container img {
-        width: 300px;
-        margin-left: 8rem;
-        margin-top: 3rem;
+        width: 100%;
+        margin-left: 1rem;
+        margin-top: 1.3rem;
         border: 2px solid;
     }
 
@@ -2258,14 +2378,35 @@ body {
 
     .FOR-ARTISTS {
         margin-left: 1.2rem;
+        width: 100%;
+    }
+
+    .FOR-ARTISTS h3 {
+        font-size: 18px;
     }
 
     .FOR-ARTISTS li {
         padding: 4px 0px;
     }
 
+    .FOR-ARTISTS li a {
+        font-size: 15px;
+    }
+
+    .for-fans {
+        width: 100%;
+    }
+
+    .for-fans h3 {
+        font-size: 18px;
+    }
+
     .for-fans li {
         padding: 4px 0px;
+    }
+
+    .for-fans li a {
+        font-size: 15px;
     }
 
     .container-down-second {
@@ -2274,18 +2415,40 @@ body {
     }
 
     .our-company {
+        width: 100%;
         margin-left: 1.2rem;
+        padding-top: 50px;
+    }
+
+    .our-company h3 {
+        font-size: 18px;
     }
 
     .our-company li {
         padding: 4px 0px;
     }
 
+    .our-company li a {
+        font-size: 15px;
+    }
+
+    .help {
+        width: 100%;
+        padding-top: 50px;
+    }
+
+    .help h3 {
+        font-size: 18px;
+    }
+
     .help li {
         padding: 4px 0px;
     }
 
-    
+    .help li a {
+        font-size: 15px;
+    }
+
 
     .black-content {
         width: 100%;
@@ -2310,21 +2473,35 @@ body {
 
     .the-response p {
 
-        width: 82%;
+        width: 90%;
         font-size: 20px;
-        line-height: 30px;
-        padding-left: 20px;
-        box-sizing: border-box;
+        line-height: 24px;
+        /* padding-left: 20px; */
+        margin-left: 1rem;
 
-    }
-
-    .one-two {
-        width: 68%;
     }
 
     .second-response {
         width: 70%;
+        padding-bottom: 100px;
     }
+
+    .second-response h5 {
+        margin: 0;
+        margin-left: 1rem;
+        font-size: 15px;
+    }
+
+    .one-two {
+
+        width: 68%;
+
+        margin-left: 1rem;
+        padding-bottom: 20px;
+    }
+
+
+
 
     .black-content img {
         padding-bottom: 0px;
@@ -2349,7 +2526,7 @@ body {
 
     .footer {
         width: 99%;
-        padding-top: 20px;
+        padding-top: 70px;
     }
 
     .footer-image {
@@ -2373,9 +2550,16 @@ body {
         width: 100px;
 
     }
-    .footer-media-down{
-        width: 80%;
-        
+
+    .footer-media-down {
+        width: 66%;
+        padding-bottom: 100px;
+
+    }
+
+    .footer-media-down a {
+        margin-right: 0;
+        padding: 0px 5px;
     }
 
     .footer-content {
@@ -2387,37 +2571,47 @@ body {
 
     .footer-content li {
         width: 100%;
-    font-size: 11px;
-    margin: 0px 0px;
-    margin-left: 6px;
-}
-    
+        font-size: 11px;
+        margin: 0px 0px;
+        margin-left: 10px;
     }
-#tdms{
-    display: none;
-}
-/* .tdms-2{
+
+
+
+    #tdms {
+        display: none;
+    }
+
+    /* .tdms-2{
     display: block;
 } */
     .footer-content-1 a {
         font-size: 15px;
     }
-.hide{
-    display: block;
-    width: 90%;
-    order: 2;
-    padding-top: 30px;
-    margin-left: 1rem;
+
+    .hide {
+        display: block;
+        width: 90%;
+        order: 2;
+        padding-top: 30px;
+        margin-left: 1rem;
+        padding-bottom: 60px;
+    }
+
+    .hide img {
+        width: 100%;
+    }
+
+    #i i {
+        font-size: 45px;
+        padding: 0px 10px;
+    }
+
 }
-.hide img{
-    width: 100%;
-}
 
 
 
 
-
-}
 
 
 
@@ -2590,6 +2784,7 @@ body {
 
     .vinyl-love img {
         order: 1;
+        width: 50%;
     }
 
     .cassetter-run {
@@ -2614,7 +2809,9 @@ body {
 
     .cassetter-run img {
         order: 1;
+        width: 50%;
     }
+
 
     .find-your-fit {
         width: 100%;
@@ -2623,15 +2820,18 @@ body {
 
     .find-your-fit h2 {
         display: block;
-        font-size: 36px;
+        font-size: 40px;
         text-align: center;
-        font-family: fangsong;
+        font-family: system-ui;
+        margin: 0;
+        padding-top: 30px;
     }
 
     .find-your-fit h4 {
         display: block;
-        font-size: 13px;
+        font-size: 17px;
         text-align: center;
+        letter-spacing: -1px;
     }
 
     .find-your-fit p {
@@ -2648,8 +2848,66 @@ body {
         border: none;
     }
 
+    .first-image h3 {
+        order: 2;
+        margin-top: 30px;
+    }
+
+    .first-image h2 {
+        order: 3;
+        margin: 0;
+        padding-top: 20px;
+        font-size: 35px;
+        font-family: system-ui;
+    }
+
+    .first-image img {
+        order: 1;
+        width: 70%;
+    }
+
+    .first-image p {
+        order: 4;
+        width: 77%;
+        font-weight: 500;
+    }
+
+    .first-image a {
+        order: 5;
+        margin-top: 20px;
+        margin-bottom: 50px;
+    }
+
     .second-image {
         width: 100%;
+    }
+
+    .second-image h3 {
+        order: 2;
+    }
+
+    .second-image h2 {
+        order: 3;
+        margin: 0;
+        font-size: 30px;
+        padding-top: 20px;
+    }
+
+    .second-image img {
+        order: 1;
+        width: 70%;
+    }
+
+    .second-image p {
+        order: 4;
+        width: 88%;
+        font-weight: 400;
+    }
+
+    .second-image a {
+        order: 5;
+        margin-top: 20px;
+        margin-bottom: 50px;
     }
 
     .container5 {
@@ -2674,6 +2932,7 @@ body {
     .container6 {
         width: 100%;
         flex-direction: column;
+        padding-top: 20px;
     }
 
     .left-content {
@@ -2690,6 +2949,7 @@ body {
 
     .learn-more {
         order: 2;
+        padding: 10px 70px;
     }
 
     .left-content h3 {
@@ -2697,7 +2957,7 @@ body {
         order: 1;
         font-size: 18px;
         font-family: ui-serif;
-        font-weight: bold;
+        font-weight: 500;
         margin-top: 0;
     }
 
@@ -2796,7 +3056,7 @@ body {
     .retail-column {
 
         width: 83%;
-
+        padding: 0px 8%
     }
 
     .retail-column h3 {
@@ -2819,6 +3079,7 @@ body {
     .retail-column p {
         width: 96%;
         font-size: 15px;
+        padding-bottom: 70px;
     }
 
     .background-image2 {
@@ -2852,6 +3113,7 @@ body {
     .community {
         width: 99%;
         padding-top: 30px;
+
     }
 
     .community-contents h4 {
@@ -2874,7 +3136,7 @@ body {
         font-weight: normal;
     }
 
-    .browse-artistsP {
+    .browse-artists P {
         padding: 14px 70px;
         background-color: white;
         border: 2px solid black
@@ -2903,8 +3165,12 @@ body {
 
     }
 
+    .child li {
+        margin: 0px 20px;
+    }
+
     .child a {
-        font-size: 18px;
+        font-size: 12px;
     }
 
     .second-container {
@@ -2958,6 +3224,23 @@ body {
     .container-black {
         width: 100%;
 
+    }
+
+    .container-black h2 {
+        width: 55%;
+        text-align: center;
+        margin: 0
+    }
+
+    .container-black p {
+        width: 68%;
+        font-size: 18px;
+        padding-top: 32px;
+    }
+
+    .container-black img {
+
+        margin-top: 1%;
     }
 
     .container-down {
@@ -3034,15 +3317,16 @@ body {
     .footer {
         width: 100%;
         flex-direction: column;
+        padding-top: 100px;
     }
 
     /* .footer-down img{
     display: none;
 } */
-
-    .footer-down img {
+    .footer-down {
         display: none;
     }
+
 
     .footer-image {
         width: 99%;
