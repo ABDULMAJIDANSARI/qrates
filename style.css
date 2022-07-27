@@ -1602,14 +1602,17 @@ body {
 .footer-media-down {
     display: flex;
     justify-content: end;
-
-
-
+    /* width: 501px; */
+    padding-right: 30px;
 }
+
+
+
+
 
 .footer-media-down a {
     width: 40px;
-    margin-right: 1.2rem;
+
 }
 
 .fa-brands {
@@ -2646,7 +2649,7 @@ body {
     }
 
     .navbar-left img {
-        width: 25px;
+        width: 30px;
         margin-left: 0rem;
     }
 
@@ -2682,7 +2685,7 @@ body {
     .left-image {
         width: 100%;
         margin-left: 0rem;
-        padding-top: 100px;
+        padding: 117px 4% 6% 30px;
 
     }
 
@@ -2693,13 +2696,19 @@ body {
     }
 
     .left-image p {
-        width: 73%;
-        font-size: 20px;
+        width: 81%;
+        font-size: 28px;
+        font-weight: normal;
+        font-family: auto;
+    }
+
+    .left-image i {
+        font-size: 15px;
     }
 
     .barriers {
-        width: 56%;
-        top: 55%;
+        width: 55%;
+        top: 63%;
         left: 27%
     }
 
@@ -3241,6 +3250,10 @@ body {
     .container-black img {
 
         margin-top: 1%;
+    }
+
+    .button a {
+        font-size: 15px
     }
 
     .container-down {
