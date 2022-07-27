@@ -2570,7 +2570,7 @@ body {
     }
 
     .footer-content {
-        width: 99%;
+        width: 100%;
         order: 3;
         text-align: center;
 
@@ -2579,7 +2579,7 @@ body {
 
     .footer-content li {
         width: 100%;
-        font-size: 15px;
+        font-size: 14px;
         margin: 0px 0px;
         font-family: auto;
         font-weight: bold;
@@ -2601,7 +2601,7 @@ body {
     }
     .tdmc li{
         list-style: none;
-        font-size: 16px;
+        font-size: 14px;
         padding-right: 5px;
         font-family: auto;
         font-weight: bold;
