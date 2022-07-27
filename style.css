@@ -1361,13 +1361,16 @@ body {
     width: 100%;
 
 }
+.all-black{
+    background-color: #000000;
+}
 
 .container-black {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    background-color: #000000;
+    
     max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
@@ -1461,7 +1464,6 @@ body {
     max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
-    background: #000000;
     padding-top: 200px;
 }
 
@@ -1569,7 +1571,6 @@ body {
     max-width: 1800px;
     margin-left: auto;
     margin-right: auto;
-    background-color: #000000;
     padding-top: 150px;
     padding-bottom: 50px;
 
@@ -1637,8 +1638,9 @@ body {
     margin: 0px 10px;
 }
 
-.tdms-2 {
+.tdmc{
     display: none;
+    color: white;
 }
 
 
@@ -1742,7 +1744,9 @@ body {
         width: 98%;
         margin-left: 0px;
         padding: 0px;
+        padding-top: 50px;
     }
+    
 
     .left-image h3 {
         text-align: center;
@@ -1775,7 +1779,7 @@ body {
         width: 55%;
         height: 5px;
         left: 6%;
-        top: 61%;
+        top: 65%;
     }
 
 
@@ -2568,21 +2572,39 @@ body {
     .footer-content {
         width: 99%;
         order: 3;
+        text-align: center;
 
     }
 
 
     .footer-content li {
         width: 100%;
-        font-size: 11px;
+        font-size: 15px;
         margin: 0px 0px;
-        margin-left: 10px;
+        font-family: auto;
+        font-weight: bold;
     }
+    
 
 
 
     #tdms {
         display: none;
+    }
+    .tdmc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: 5;
+        width: 99%;
+        padding-top: 10px;
+    }
+    .tdmc li{
+        list-style: none;
+        font-size: 16px;
+        padding-right: 5px;
+        font-family: auto;
+        font-weight: bold;
     }
 
     /* .tdms-2{
@@ -3257,9 +3279,11 @@ body {
     }
 
     .container-down {
-        width: 100%;
-        flex-direction: column;
-        padding-top: 100px;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 50px;
+    border-top: 1px solid white;
+    margin-top: 50px;
 
     }
 
